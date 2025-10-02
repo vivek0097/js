@@ -38,7 +38,7 @@
 
 
 
-//--------------------------
+//----------------function envocation----------
 var x= 1;
 a();
 b();
@@ -55,3 +55,13 @@ function b(){
     var x = 100;
     console.log(x)
 }
+
+
+
+//-------------------functions ----------------
+function makeCoffee(type) {
+  return `Here is your ${type} coffee `;
+}
+
+console.log(makeCoffee("Latte"));
+console.log(makeCoffee("Cappuccino"));
